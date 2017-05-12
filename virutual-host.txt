@@ -1,0 +1,11 @@
+<VirtualHost *:80>
+    ServerAdmin webmaster@localhost
+    DocumentRoot C:\xampp\htdocs\www\magento
+    ServerName magento
+    <Directory "C:\xampp\htdocs\www\magento">
+        Options Indexes FollowSymLinks Includes ExecCGI
+        AllowOverride All
+        Order allow,deny
+        Allow from all
+    </Directory>
+</VirtualHost>

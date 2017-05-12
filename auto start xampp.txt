@@ -1,0 +1,20 @@
+A.Xampp auto start
+
+1.open xampp click config auto start click apache mysql
+
+2. Run cmd type regedit 
+
+
+hotkey local machine->
+software->
+microsoft->
+windows->
+current version->
+run->
+right click new shink value 
+
+
+value name-XAMPP
+value data=C:\xampp\xampp-control.exe
+
+
